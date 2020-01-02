@@ -5,10 +5,10 @@ description: Been coding since 2016, but BenJamin since 1998
 images/3dad31ab-dbb9-410e-b799-1e3341abedfc_200x200.png
 
 # URL of your blog logo image, the recommended size is not more than 300px × 300px
-avatar: https://raw.githubusercontent.com/bencampa/site/blob/master/images/3dad31ab-dbb9-410e-b799-1e3341abedfc_200x200.png
+avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
 
 # Your favicon (appears on the browser tab) image URL, it is recommended to use a smaller (64px × 64px) image
-favicon: https://github.com/bencampa/site/blob/master/images/favicon-32x32.png
+favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
 
 navigation:
   - name: Home
