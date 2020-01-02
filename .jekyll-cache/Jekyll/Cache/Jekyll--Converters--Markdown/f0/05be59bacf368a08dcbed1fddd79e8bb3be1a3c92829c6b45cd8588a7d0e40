@@ -1,0 +1,6 @@
+I"�<p>LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用<code class="highlighter-rouge">$$</code>标明，内联公式则用<code class="highlighter-rouge">$</code>.</p>
+
+<p>最好不要让公式出现在文章摘要里。</p>
+
+<p>Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为`</p>
+:ET
