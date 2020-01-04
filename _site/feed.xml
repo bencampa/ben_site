@@ -1,233 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/site/" rel="alternate" type="text/html" /><updated>2020-01-03T20:13:16-08:00</updated><id>http://localhost:4000/site/feed.xml</id><title type="html">Benjamin Campagna</title><subtitle>BenJamin since 1998</subtitle><entry><title type="html">Created My Own Site</title><link href="http://localhost:4000/site/chinese-markdown-cheatsheet/" rel="alternate" type="text/html" title="Created My Own Site" /><published>2020-01-01T00:00:00-08:00</published><updated>2020-01-01T00:00:00-08:00</updated><id>http://localhost:4000/site/chinese-markdown-cheatsheet</id><content type="html" xml:base="http://localhost:4000/site/chinese-markdown-cheatsheet/">&lt;p&gt;After creating multiple different little static websites that could only be hosted on local serves, I decided to create my own site and have it run forever with the skillls I learned from Wizard match and use it as my online resume.&lt;/p&gt;</content><author><name></name></author><category term="sample" /><category term="markdown" /><summary type="html">After creating multiple different little static websites that could only be hosted on local serves, I decided to create my own site and have it run forever with the skillls I learned from Wizard match and use it as my online resume.</summary></entry><entry><title type="html">LaTex渲染的说明和测试</title><link href="http://localhost:4000/site/math-test/" rel="alternate" type="text/html" title="LaTex渲染的说明和测试" /><published>2019-07-24T00:00:00-07:00</published><updated>2019-07-24T00:00:00-07:00</updated><id>http://localhost:4000/site/math-test</id><content type="html" xml:base="http://localhost:4000/site/math-test/">&lt;p&gt;LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用&lt;code class=&quot;highlighter-rouge&quot;&gt;$$&lt;/code&gt;标明，内联公式则用&lt;code class=&quot;highlighter-rouge&quot;&gt;$&lt;/code&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/site/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/site/" rel="alternate" type="text/html" /><updated>2020-01-03T22:29:12-08:00</updated><id>http://localhost:4000/site/feed.xml</id><title type="html">Benjamin Campagna</title><subtitle>BenJamin since 1998</subtitle><entry><title type="html">Front-End Development Consultant for NestPick.com, Berlin, Germany</title><link href="http://localhost:4000/site/nestpick/" rel="alternate" type="text/html" title="Front-End Development Consultant for NestPick.com, Berlin, Germany" /><published>2020-01-01T00:00:00-08:00</published><updated>2020-01-01T00:00:00-08:00</updated><id>http://localhost:4000/site/nestpick</id><content type="html" xml:base="http://localhost:4000/site/nestpick/">&lt;p&gt;January 1, 2020&lt;/p&gt;
 
-&lt;p&gt;最好不要让公式出现在文章摘要里。&lt;/p&gt;
+&lt;p&gt;https://www.nestpick.com/generation-z-city-index-2019/&lt;/p&gt;
 
-&lt;p&gt;Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;!-- more --&amp;gt;&lt;/code&gt;，并且加入了首页摘要的字符数限制。&lt;/p&gt;
+&lt;p&gt;I was inspired by an article they published on their site about the best citys to live in for Generation Z. They put together a database that ranked each city on multiple different categories like safety, affordability, etc.&lt;/p&gt;</content><author><name></name></author><summary type="html">January 1, 2020 https://www.nestpick.com/generation-z-city-index-2019/ I was inspired by an article they published on their site about the best citys to live in for Generation Z. They put together a database that ranked each city on multiple different categories like safety, affordability, etc.</summary></entry><entry><title type="html">Front-End Development Consultant for Wizard Match LLC., New York City, NY</title><link href="http://localhost:4000/site/wizard/" rel="alternate" type="text/html" title="Front-End Development Consultant for Wizard Match LLC., New York City, NY" /><published>2019-07-01T00:00:00-07:00</published><updated>2019-07-01T00:00:00-07:00</updated><id>http://localhost:4000/site/wizard</id><content type="html" xml:base="http://localhost:4000/site/wizard/">&lt;p&gt;July 2019- present&lt;/p&gt;
 
-&lt;p&gt;因此有特殊符号、内容的文章，建议将这些内容折叠在摘要以下。例如本文&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/bencampa/ben_site/master/images/wizard.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
 
-&lt;!-- more --&gt;
+&lt;p&gt;-Worked with Angular (Web framework) to create a tiered permission and access level comment sections that followed the Redux pattern on a new healthcare-related enterprise website.&lt;/p&gt;
 
-&lt;p&gt;Block math test&lt;/p&gt;
+&lt;p&gt;-Used DevExtreme (HTML application framework) to design a custom pop-up comment section that included both user and date imprinting.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$$
-\begin{align*}
-y = y(x,t) &amp;amp;= A e^{i\theta} \\
-&amp;amp;= A (\cos \theta + i \sin \theta) \\
-&amp;amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&amp;amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&amp;amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&amp;amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*}
-$$
+&lt;p&gt;-Created extensive Mock Web-API data that helped run and test the website during the development.&lt;/p&gt;
 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;-Designed and built a complex multi-tiered database that allows comment viewing by both users and employees. Also created a secure access level structure that only allows designated comments to be created and viewed by agency employees.&lt;/p&gt;
 
-&lt;script type=&quot;math/tex; mode=display&quot;&gt;% &lt;![CDATA[
-\begin{align*}
-y = y(x,t) &amp;= A e^{i\theta} \\
-&amp;= A (\cos \theta + i \sin \theta) \\
-&amp;= A (\cos(kx - \omega t) + i \sin(kx - \omega t)) \\
-&amp;= A\cos(kx - \omega t) + i A\sin(kx - \omega t)  \\
-&amp;= A\cos \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big) + i A\sin \Big(\frac{2\pi}{\lambda}x - \frac{2\pi v}{\lambda} t \Big)  \\
-&amp;= A\cos \frac{2\pi}{\lambda} (x - v t) + i A\sin \frac{2\pi}{\lambda} (x - v t)
-\end{align*} %]]&gt;&lt;/script&gt;
+&lt;p&gt;Can’t link to a github of my work because I signed an NDA&lt;/p&gt;
 
-&lt;p&gt;Inline math test &lt;code class=&quot;highlighter-rouge&quot;&gt;$\lim_{x \to \infty} \exp(-x) = 0$&lt;/code&gt;, $\lim_{x \to \infty} \exp(-x) = 0$&lt;/p&gt;</content><author><name></name></author><category term="sample" /><category term="document" /><summary type="html">LaTeX渲染已经在全站头部文件引入，可以直接使用，公式块上下使用$$标明，内联公式则用$. 最好不要让公式出现在文章摘要里。 Jekyll的默认文章摘要是第一段，但是我在使用中发现它选取摘要不是很稳定，因此加入了手动摘要分割线，默认为`</summary></entry><entry><title type="html">LOFFER文档</title><link href="http://localhost:4000/site/document/" rel="alternate" type="text/html" title="LOFFER文档" /><published>2019-06-02T00:00:00-07:00</published><updated>2019-06-02T00:00:00-07:00</updated><id>http://localhost:4000/site/document</id><content type="html" xml:base="http://localhost:4000/site/document/">&lt;p&gt;LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。&lt;/p&gt;
-
-&lt;p&gt;这是一个可以通过Fork直接发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。&lt;/p&gt;
-
-&lt;h2 id=&quot;更新内容&quot;&gt;更新内容&lt;/h2&gt;
-
-&lt;h3 id=&quot;2019-07-25-v040&quot;&gt;2019-07-25 V0.4.0&lt;/h3&gt;
-
-&lt;p&gt;修订目录跳级会坏掉的问题，不算完美解决，但不会坏掉了。&lt;/p&gt;
-
-&lt;p&gt;增加对LaTeX渲染的支持，请见&lt;a href=&quot;https://fromendworld.github.io/LOFFER/math-test/&quot;&gt;这篇说明和示例&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;增加置顶功能，只要在一个post的YAML Front Matter（就是文章头部的这段信息）中加入&lt;code class=&quot;highlighter-rouge&quot;&gt; pinned: true &lt;/code&gt;，这篇文章就可以置顶了。&lt;/p&gt;
-
-&lt;p&gt;另外介绍一个给LOFFER更换主题颜色的手法。LOFFER用了一个开源的颜色表&lt;a href=&quot;https://yeun.github.io/open-color/&quot;&gt;Open Color&lt;/a&gt;,该色表提供的可选颜色有：red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow。&lt;/p&gt;
-
-&lt;p&gt;LOFFER的默认状态是teal，要更换主题颜色，只要打开文件&lt;code class=&quot;highlighter-rouge&quot;&gt; _sass/_variables.scss &lt;/code&gt;，将文件中所有的teal全部替换成你想要的颜色。例如，查找teal，替换indigo，全部替换，commit，完成！&lt;/p&gt;
-
-&lt;h3 id=&quot;2019-07-20-v030&quot;&gt;2019-07-20 V0.3.0&lt;/h3&gt;
-
-&lt;p&gt;新版本增加目录功能，在post的信息中心加入&lt;code class=&quot;highlighter-rouge&quot;&gt; toc: true &lt;/code&gt;，这篇博文就会显示目录了。&lt;/p&gt;
-
-&lt;p&gt;这次没有对config的修改，因此应该可以通过&lt;a href=&quot;https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser&quot;&gt;这个方法&lt;/a&gt;，给自己提pull request来更新。&lt;/p&gt;
-
-&lt;p&gt;目录基于&lt;a href=&quot;https://github.com/allejo/jekyll-toc&quot;&gt;jekyll-toc by allejo&lt;/a&gt;制作。&lt;/p&gt;
-
-&lt;p&gt;目前我试用发现了一点小问题：如果你的标题级数不按套路变化，它就会搞不懂……&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt; # 一级标题 &lt;/code&gt;下面必须是&lt;code class=&quot;highlighter-rouge&quot;&gt; ## 二级标题 &lt;/code&gt;，如果是&lt;code class=&quot;highlighter-rouge&quot;&gt; ### 三级标题 &lt;/code&gt;它就人工智障了【手动扶额】&lt;/p&gt;
-
-&lt;p&gt;注意：目前目录仅在桌面版显示。&lt;/p&gt;
-
-&lt;h3 id=&quot;2019-06-30-v020&quot;&gt;2019-06-30 V0.2.0&lt;/h3&gt;
-
-&lt;p&gt;新版本进一步优化了一下样式，并且支持了基于GitHub Issues的评论Gitalk（请看下文的配置说明）。&lt;/p&gt;
-
-&lt;p&gt;如果你已经fork了LOFFER，想要更新到新版本的话，可以试试&lt;a href=&quot;https://github.com/KirstieJane/STEMMRoleModels/wiki/Syncing-your-fork-to-the-original-repository-via-the-browser&quot;&gt;这个方法&lt;/a&gt;，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。&lt;/p&gt;
-
-&lt;p&gt;LOFFER只是容器，你的posts才是博客的核心。&lt;/p&gt;
-
-&lt;h2 id=&quot;注意&quot;&gt;注意&lt;/h2&gt;
-
-&lt;p&gt;LOFFER是一个&lt;strong&gt;博客模板&lt;/strong&gt;，使用GitHub Pages发布个人博客是没有任何问题的。 &lt;strong&gt;但是:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;AAAAAAADDDDD SSSSTTTTTUUUUUFFFFFFF ABOUT WHAT UR CURRENTLY DOING&lt;/p&gt;</content><author><name></name></author><summary type="html">July 2019- present -Worked with Angular (Web framework) to create a tiered permission and access level comment sections that followed the Redux pattern on a new healthcare-related enterprise website. -Used DevExtreme (HTML application framework) to design a custom pop-up comment section that included both user and date imprinting. -Created extensive Mock Web-API data that helped run and test the website during the development. -Designed and built a complex multi-tiered database that allows comment viewing by both users and employees. Also created a secure access level structure that only allows designated comments to be created and viewed by agency employees. Can’t link to a github of my work because I signed an NDA AAAAAAADDDDD SSSSTTTTTUUUUUFFFFFFF ABOUT WHAT UR CURRENTLY DOING</summary></entry><entry><title type="html">Special Projects Intern for TPG Capital, San Francisco, CA</title><link href="http://localhost:4000/site/tpg/" rel="alternate" type="text/html" title="Special Projects Intern for TPG Capital, San Francisco, CA" /><published>2018-05-01T00:00:00-07:00</published><updated>2018-05-01T00:00:00-07:00</updated><id>http://localhost:4000/site/tpg</id><content type="html" xml:base="http://localhost:4000/site/tpg/">&lt;p&gt;May 2018 - September 2018&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;请勿发布成人向内容&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;不要将大量图片上传到GitHub&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;如有疑问，请阅读&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages官方说明&lt;/a&gt;。&lt;/p&gt;
-
-&lt;p&gt;另外，同人作品更好的发布平台是&lt;a href=&quot;https://archiveofourown.org/&quot;&gt;AO3&lt;/a&gt;，你想你发在AO3还有tag还有kudos还有人看，是吧？&lt;/p&gt;
-
-&lt;h2 id=&quot;如何使用&quot;&gt;如何使用&lt;/h2&gt;
-
-&lt;p&gt;首先，这个博客主题适应手机阅读，但是，要使用它建立你自己的博客，你需要上电脑操作。&lt;/p&gt;
-
-&lt;h3 id=&quot;第一步-fork到你的github&quot;&gt;第一步 Fork到你的GitHub&lt;/h3&gt;
-
-&lt;p&gt;请点击&lt;a href=&quot;https://github.com/&quot;&gt;GitHub&lt;/a&gt;，注册一个GitHub账户。我们可以理解Git就是个文件版本管理系统，本身并不需要会代码即可使用。&lt;/p&gt;
-
-&lt;p&gt;现在你看到的LOFFER，是作为一个GitHub上的Repository（代码库）存在的，你可以把这个代码库复制到你自己的GitHub账户中，这个操作叫做Fork。&lt;/p&gt;
-
-&lt;p&gt;点击&lt;a href=&quot;https://github.com/FromEndWorld/LOFFER&quot;&gt;LOFFER&lt;/a&gt;，进入LOFFER的GitHub Repository页面，然后点Fork：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fork.gif&quot; alt=&quot;gif&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;然后你立刻就可以看到LOFFER再次出现，这次它已经属于你了，这里我建议你重命名它，点击settings，给你的博客起个名字（请尽量使用字母而非中文）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/rename.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;然后，向下拉页面，你会看到“GitHub Pages”，这是GitHub内置的网站host服务，选择master，如图所示：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/pages.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;在几秒钟后，刷新此页面，你通常会看到这个绿色的东西（如果没看到，多等一会），你的网站已经发布成功，点击这个链接，即可查看：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/published.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;你可能会看到网站长得很丑，请继续下一步.&lt;/p&gt;
-
-&lt;h3 id=&quot;第二步-设置站点信息&quot;&gt;第二步 设置站点信息&lt;/h3&gt;
-
-&lt;p&gt;在你的博客的GitHub代码库页面里，选择Code，文件列表里选择_config.yml，点击打开，点击右上角笔形图标修改文档。&lt;/p&gt;
-
-&lt;p&gt;修改完成后，点击“Commit changes”。每次修改过代码库并且commit后，GitHub Pages都会自动重新发布网站，只要等上几分钟，再次刷新你的博客页面，就会看到你的修改了。&lt;/p&gt;
-
-&lt;p&gt;还有一点，&lt;strong&gt;LOFFER使用的是MIT协议，大意就是全部开源随意使用，如果你要保留自己博文的权利，请编辑LICENSE文件，写上类似“_posts中的文档作者保留权利”这样的内容。&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;第三步-发布博文&quot;&gt;第三步 发布博文&lt;/h3&gt;
-
-&lt;p&gt;在你的博客的GitHub代码库页面里，点开_posts文件夹，这里面就是你的博客文章。&lt;/p&gt;
-
-&lt;p&gt;这些文章使用的格式是Markdown，文件后缀名是md，这是一种非常简单易用的有格式文本标记语言，你应该已经注意到，在LOFFER自带的示例性博文中有一篇中文的Markdown语法介绍。&lt;/p&gt;
-
-&lt;p&gt;更简单的办法是使用&lt;a href=&quot;https://typora.io/&quot;&gt;Typora&lt;/a&gt;，这是一个全图形化界面，全实时预览的Markdown写作软件，非常轻量，而且免费。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Typora.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;在发布博文前，你需要在文章的头部添加这样的内容，包括你的文章标题，发布日期，作者名，和tag等。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;---
-layout: post
-title: LOFFER文档
-date: 2019-06-02
-Author: 来自中世界
-categories: 
-tags: [sample, document]
-comments: true
---- 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;完成后，保存为.md文件，文件名是date-标题，例如 2019-06-02-document.md (注意这里的标题会成为这个post的URL，所以推荐使用字母而非中文，它不影响页面上显示的标题)，然后上传到_posts文件夹，commit，很快就可以在博客上看到新文章了。&lt;/p&gt;
-
-&lt;h3 id=&quot;可选图片怎么办&quot;&gt;可选：图片怎么办？&lt;/h3&gt;
-
-&lt;p&gt;少量图片可以上传到images文件夹，然后在博文中添加。&lt;/p&gt;
-
-&lt;p&gt;但是GitHub用来当做图床有滥用之嫌，如果你的博客以图片为主，建议选择外链图床，例如&lt;a href=&quot;https://sm.ms/&quot;&gt;sm.ms&lt;/a&gt;就是和很好的选择。&lt;/p&gt;
-
-&lt;p&gt;如果想要寻找更适合自己的图床，敬请Google一下。&lt;/p&gt;
-
-&lt;p&gt;在博文中添加图片的Markdown语法是：&lt;code class=&quot;highlighter-rouge&quot;&gt;![图片名](URL)&lt;/code&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;可选添加评论区&quot;&gt;可选：添加评论区&lt;/h3&gt;
-
-&lt;h4 id=&quot;disqus&quot;&gt;Disqus&lt;/h4&gt;
-
-&lt;p&gt;LOFFER支持Disqus评论，虽然Disqus很丑，但是它是免费的，设置起来又方便，因此大家也就不要嫌弃它。&lt;/p&gt;
-
-&lt;p&gt;首先，注册一个&lt;a href=&quot;https://disqus.com/&quot;&gt;Disqus&lt;/a&gt;账户，我们可以选择这个免费方案：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-plan.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;注册成功后，新建一个站点（site），以LOFFER为例设置步骤如下：&lt;/p&gt;
-
-&lt;p&gt;首先站点名LOFFER，生成了shortname是loffer，类型可以随便选。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-1.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;安装时选择Jekyll。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-2.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;最后填入你的博客地址，语言可以选中文，点Complete，即可！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/Disqus-3.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;然后需要回到你的博客，修改_config.yml文件，在disqus字段填上你的shortname，commit，完成！&lt;/p&gt;
-
-&lt;h4 id=&quot;gitalk&quot;&gt;Gitalk&lt;/h4&gt;
-
-&lt;p&gt;新增内容，LOFFER 0.2.0版本支持Gitalk评论区（在LOFFER示例站中仍然是Disqus，可以在&lt;a href=&quot;https://himring.top/gitalk/&quot;&gt;我的博客&lt;/a&gt;查看Gitalk的demo），设置方法如下：&lt;/p&gt;
-
-&lt;p&gt;首先，创建一个&lt;a href=&quot;https://github.com/settings/applications/new&quot;&gt;OAuth application&lt;/a&gt;, 设置如图：&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/application_settings.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;点Register后就会看到你所需要的两个值，clientID和clientSecret，把它们复制到你的_config.yml文件中相应的字段：&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gitalk:
-  clientID: &amp;lt;你的clientID&amp;gt;
-  clientSecret: &amp;lt;你的clientSecret&amp;gt;
-  repo: &amp;lt;你的repository名称&amp;gt;
-  owner: &amp;lt;你的GitHub用户名&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;然后commit，你的Gitalk评论区就会出现了。对于每一篇文章，都需要你来进入文章页，来初始化评论区，这一操作会在你的repository上创建一个Issue，此后的评论就是对这个Issue的回复。&lt;/p&gt;
-
-&lt;p&gt;你可以进入你的repository的Issue页面，点&lt;strong&gt;Unsubscribe&lt;/strong&gt;来避免收到大量相关邮件。&lt;/p&gt;
-
-&lt;p&gt;注意：出于很明显的原因，最好不要同时添加Disqus和Gitalk评论区。&lt;/p&gt;
-
-&lt;h3 id=&quot;导入lofter的内容&quot;&gt;导入LOFTER的内容&lt;/h3&gt;
-
-&lt;p&gt;这部分由于LOFTER的导出文件十分&lt;del&gt;优秀&lt;/del&gt;，需要另外解决。&lt;/p&gt;
-
-&lt;p&gt;诸位可以使用&lt;a href=&quot;http://underdream.lofter.com/post/38ea7d_1c5d8a983&quot;&gt;墨问非名太太的脚本&lt;/a&gt;，其中选择Jekyll输出即可。&lt;/p&gt;
-
-&lt;p&gt;我个人也在折腾一个脚本，目前还没有完全debug清楚，不管如何，请先在lofter里导出一下，存在本地也是好的，贴吧可以让2017以前所有内容全部消失，中国互联网，没什么不可能发生的。&lt;/p&gt;
-
-&lt;h2 id=&quot;致谢&quot;&gt;致谢&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll&lt;/a&gt; - 这是本站存在的根基&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/aweekj/kiko-now&quot;&gt;Kiko-now&lt;/a&gt; - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://fontawesome.com/&quot;&gt;Font Awesome&lt;/a&gt; - 社交网络图标来自FontAwesome的免费开源内容&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;帮助这个项目&quot;&gt;帮助这个项目&lt;/h2&gt;
-
-&lt;p&gt;介绍更多人来使用它，摆脱lofter自由飞翔！&lt;/p&gt;
-
-&lt;p&gt;当然如果单说写同人的话，我还是建议大家都去AO3，但是自家博客自己架也很酷炫，你还可以选择很多其他的forkable Jeykll主题，GitHub上有很多，或者试试其他博客架设工具，例如Hexo，与代码斗其乐无穷。&lt;/p&gt;
-
-&lt;p&gt;最后，回到&lt;a href=&quot;https://github.com/FromEndWorld/LOFFER&quot;&gt;LOFFER&lt;/a&gt;，给我点一个☆吧！&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/givemefive.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><category term="sample" /><category term="document" /><summary type="html">LOFFER是个可以帮助你get off from LOFTER的软件（我知道这个pun很烂）。 这是一个可以通过Fork直接发布在GitHub的Jekyll博客，你不需要编写代码或使用命令行即可获得一个部署在GitHub的博客。 更新内容 2019-07-25 V0.4.0 修订目录跳级会坏掉的问题，不算完美解决，但不会坏掉了。 增加对LaTeX渲染的支持，请见这篇说明和示例。 增加置顶功能，只要在一个post的YAML Front Matter（就是文章头部的这段信息）中加入 pinned: true ，这篇文章就可以置顶了。 另外介绍一个给LOFFER更换主题颜色的手法。LOFFER用了一个开源的颜色表Open Color,该色表提供的可选颜色有：red, pink, grape, violet, indigo, blue, cyan, teal, green, lime, yellow。 LOFFER的默认状态是teal，要更换主题颜色，只要打开文件 _sass/_variables.scss ，将文件中所有的teal全部替换成你想要的颜色。例如，查找teal，替换indigo，全部替换，commit，完成！ 2019-07-20 V0.3.0 新版本增加目录功能，在post的信息中心加入 toc: true ，这篇博文就会显示目录了。 这次没有对config的修改，因此应该可以通过这个方法，给自己提pull request来更新。 目录基于jekyll-toc by allejo制作。 目前我试用发现了一点小问题：如果你的标题级数不按套路变化，它就会搞不懂…… # 一级标题 下面必须是 ## 二级标题 ，如果是 ### 三级标题 它就人工智障了【手动扶额】 注意：目前目录仅在桌面版显示。 2019-06-30 V0.2.0 新版本进一步优化了一下样式，并且支持了基于GitHub Issues的评论Gitalk（请看下文的配置说明）。 如果你已经fork了LOFFER，想要更新到新版本的话，可以试试这个方法，或者你也可以干脆删掉重来，只要保留自己的大部分config设定和所有的post就好。 LOFFER只是容器，你的posts才是博客的核心。 注意 LOFFER是一个博客模板，使用GitHub Pages发布个人博客是没有任何问题的。 但是: 请勿发布成人向内容 不要将大量图片上传到GitHub 如有疑问，请阅读GitHub Pages官方说明。 另外，同人作品更好的发布平台是AO3，你想你发在AO3还有tag还有kudos还有人看，是吧？ 如何使用 首先，这个博客主题适应手机阅读，但是，要使用它建立你自己的博客，你需要上电脑操作。 第一步 Fork到你的GitHub 请点击GitHub，注册一个GitHub账户。我们可以理解Git就是个文件版本管理系统，本身并不需要会代码即可使用。 现在你看到的LOFFER，是作为一个GitHub上的Repository（代码库）存在的，你可以把这个代码库复制到你自己的GitHub账户中，这个操作叫做Fork。 点击LOFFER，进入LOFFER的GitHub Repository页面，然后点Fork： 然后你立刻就可以看到LOFFER再次出现，这次它已经属于你了，这里我建议你重命名它，点击settings，给你的博客起个名字（请尽量使用字母而非中文）。 然后，向下拉页面，你会看到“GitHub Pages”，这是GitHub内置的网站host服务，选择master，如图所示： 在几秒钟后，刷新此页面，你通常会看到这个绿色的东西（如果没看到，多等一会），你的网站已经发布成功，点击这个链接，即可查看： 你可能会看到网站长得很丑，请继续下一步. 第二步 设置站点信息 在你的博客的GitHub代码库页面里，选择Code，文件列表里选择_config.yml，点击打开，点击右上角笔形图标修改文档。 修改完成后，点击“Commit changes”。每次修改过代码库并且commit后，GitHub Pages都会自动重新发布网站，只要等上几分钟，再次刷新你的博客页面，就会看到你的修改了。 还有一点，LOFFER使用的是MIT协议，大意就是全部开源随意使用，如果你要保留自己博文的权利，请编辑LICENSE文件，写上类似“_posts中的文档作者保留权利”这样的内容。 第三步 发布博文 在你的博客的GitHub代码库页面里，点开_posts文件夹，这里面就是你的博客文章。 这些文章使用的格式是Markdown，文件后缀名是md，这是一种非常简单易用的有格式文本标记语言，你应该已经注意到，在LOFFER自带的示例性博文中有一篇中文的Markdown语法介绍。 更简单的办法是使用Typora，这是一个全图形化界面，全实时预览的Markdown写作软件，非常轻量，而且免费。 在发布博文前，你需要在文章的头部添加这样的内容，包括你的文章标题，发布日期，作者名，和tag等。 --- layout: post title: LOFFER文档 date: 2019-06-02 Author: 来自中世界 categories: tags: [sample, document] comments: true --- 完成后，保存为.md文件，文件名是date-标题，例如 2019-06-02-document.md (注意这里的标题会成为这个post的URL，所以推荐使用字母而非中文，它不影响页面上显示的标题)，然后上传到_posts文件夹，commit，很快就可以在博客上看到新文章了。 可选：图片怎么办？ 少量图片可以上传到images文件夹，然后在博文中添加。 但是GitHub用来当做图床有滥用之嫌，如果你的博客以图片为主，建议选择外链图床，例如sm.ms就是和很好的选择。 如果想要寻找更适合自己的图床，敬请Google一下。 在博文中添加图片的Markdown语法是：![图片名](URL) 可选：添加评论区 Disqus LOFFER支持Disqus评论，虽然Disqus很丑，但是它是免费的，设置起来又方便，因此大家也就不要嫌弃它。 首先，注册一个Disqus账户，我们可以选择这个免费方案： 注册成功后，新建一个站点（site），以LOFFER为例设置步骤如下： 首先站点名LOFFER，生成了shortname是loffer，类型可以随便选。 安装时选择Jekyll。 最后填入你的博客地址，语言可以选中文，点Complete，即可！ 然后需要回到你的博客，修改_config.yml文件，在disqus字段填上你的shortname，commit，完成！ Gitalk 新增内容，LOFFER 0.2.0版本支持Gitalk评论区（在LOFFER示例站中仍然是Disqus，可以在我的博客查看Gitalk的demo），设置方法如下： 首先，创建一个OAuth application, 设置如图： 点Register后就会看到你所需要的两个值，clientID和clientSecret，把它们复制到你的_config.yml文件中相应的字段： gitalk: clientID: &amp;lt;你的clientID&amp;gt; clientSecret: &amp;lt;你的clientSecret&amp;gt; repo: &amp;lt;你的repository名称&amp;gt; owner: &amp;lt;你的GitHub用户名&amp;gt; 然后commit，你的Gitalk评论区就会出现了。对于每一篇文章，都需要你来进入文章页，来初始化评论区，这一操作会在你的repository上创建一个Issue，此后的评论就是对这个Issue的回复。 你可以进入你的repository的Issue页面，点Unsubscribe来避免收到大量相关邮件。 注意：出于很明显的原因，最好不要同时添加Disqus和Gitalk评论区。 导入LOFTER的内容 这部分由于LOFTER的导出文件十分优秀，需要另外解决。 诸位可以使用墨问非名太太的脚本，其中选择Jekyll输出即可。 我个人也在折腾一个脚本，目前还没有完全debug清楚，不管如何，请先在lofter里导出一下，存在本地也是好的，贴吧可以让2017以前所有内容全部消失，中国互联网，没什么不可能发生的。 致谢 Jekyll - 这是本站存在的根基 Kiko-now - 我首先是fork这个主题，然后再其上进行修改汉化，才有了LOFFER Font Awesome - 社交网络图标来自FontAwesome的免费开源内容 帮助这个项目 介绍更多人来使用它，摆脱lofter自由飞翔！ 当然如果单说写同人的话，我还是建议大家都去AO3，但是自家博客自己架也很酷炫，你还可以选择很多其他的forkable Jeykll主题，GitHub上有很多，或者试试其他博客架设工具，例如Hexo，与代码斗其乐无穷。 最后，回到LOFFER，给我点一个☆吧！</summary></entry></feed>
+  &lt;li&gt;
+    &lt;p&gt;Worked directly with TPG Chief Economist David Bailey on several projects to help better understand the macroeconomic factors affecting TPG’s $84B private equity portfolio.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Created elaborate Excel macros to interact directly with Bloomberg data feeds in order to display 94 unique economic data points for the 18 focus countries being analyzed.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Collaborated with the TPG economic team to analyze data, automate trend deviation notifications and create predictive pricing models.)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">May 2018 - September 2018 Worked directly with TPG Chief Economist David Bailey on several projects to help better understand the macroeconomic factors affecting TPG’s $84B private equity portfolio. Created elaborate Excel macros to interact directly with Bloomberg data feeds in order to display 94 unique economic data points for the 18 focus countries being analyzed. Collaborated with the TPG economic team to analyze data, automate trend deviation notifications and create predictive pricing models.)</summary></entry><entry><title type="html">Leadership Fellow at Barger Leadership Institute, Ann Arbor, MI</title><link href="http://localhost:4000/site/BLI/" rel="alternate" type="text/html" title="Leadership Fellow at Barger Leadership Institute, Ann Arbor, MI" /><published>2017-09-01T00:00:00-07:00</published><updated>2017-09-01T00:00:00-07:00</updated><id>http://localhost:4000/site/BLI</id><content type="html" xml:base="http://localhost:4000/site/BLI/">&lt;p&gt;September 2017 - Present&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;-Organized a case study project focused on deepening understanding of intrinsic motivation and identifying factors with the greatest impact on collegiate learning.&lt;/p&gt;
+
+&lt;p&gt;-Led project team responsible for interviewing faculty members and business leaders.&lt;/p&gt;
+
+&lt;p&gt;-Coordinated a campus-wide campaign based on study results and interviews to promote more effective academic practices.&lt;/p&gt;</content><author><name></name></author><summary type="html">September 2017 - Present -Organized a case study project focused on deepening understanding of intrinsic motivation and identifying factors with the greatest impact on collegiate learning. -Led project team responsible for interviewing faculty members and business leaders. -Coordinated a campus-wide campaign based on study results and interviews to promote more effective academic practices.</summary></entry></feed>

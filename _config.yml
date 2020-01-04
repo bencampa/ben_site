@@ -2,19 +2,17 @@
 name: Benjamin Campagna
 description: BenJamin since 1998
 
-avatar: https://raw.githubusercontent.com/bencampa/ben_site/master/images/made_logo.png
+avatar: https://raw.githubusercontent.com/bencampa/ben_site/master/images/favicon.png
 
 # Your favicon (appears on the browser tab) image URL, it is recommended to use a smaller (64px × 64px) image
 favicon: https://raw.githubusercontent.com/bencampa/ben_site/master/images/favicon.png
 navigation:
-  - name: Home
-    url: /
-  - name: About
-    url: /about
   - name: Work Experience
-    url: /work
+    url: /
   - name: Projects
     url: /projects
+  - name: About
+    url: /about
   - name: Contact me
     url: /contact
 
