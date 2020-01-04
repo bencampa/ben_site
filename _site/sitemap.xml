@@ -34,6 +34,6 @@
 <loc>http://localhost:4000/site/projects/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/site/work/</loc>
+<loc>http://localhost:4000/site/work</loc>
 </url>
 </urlset>
