@@ -281,7 +281,6 @@ a.footnote,
   border: 1px solid #f1f3f5;
   border-radius: 2px;
   -webkit-text-stroke: 0.25px;
-  -webkit-transition: 0.2s ease-out all;
   text-decoration: none;
 }
 
