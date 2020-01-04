@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/site/work/BLI</loc>
+<loc>http://localhost:4000/site/BLI</loc>
 <lastmod>2017-09-01T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/site/work/TPG</loc>
+<loc>http://localhost:4000/site/TPG</loc>
 <lastmod>2018-05-01T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/site/work/wizard</loc>
+<loc>http://localhost:4000/site/wizard</loc>
 <lastmod>2019-07-01T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/site/work/nestpick</loc>
+<loc>http://localhost:4000/site/nestpick</loc>
 <lastmod>2020-01-01T00:00:00-08:00</lastmod>
 </url>
 <url>
