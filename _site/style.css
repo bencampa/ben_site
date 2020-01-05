@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /***************/
 /* MEYER RESET */
 /***************/
@@ -547,7 +546,7 @@ nav a {
 }
 
 .toc:before {
-  content: "目录";
+  content: "before";
   margin: 0 0 1em 1em;
   font-weight: 700;
   font-size: 1.2em;
