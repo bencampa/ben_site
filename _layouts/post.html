@@ -29,20 +29,3 @@ layout: default
   {% include disqus.html %}
   {% include gitalk.html %}
 </article>
-
-<div class="pagination">
-  {% if page.previous.url %}
-    <span class="prev" >
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-        ← Back
-      </a>
-    </span>
-  {% endif %}
-  {% if page.next.url %}
-    <span class="next" >
-      <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-        Next →
-      </a>
-    </span>
-  {% endif %}
-</div>
