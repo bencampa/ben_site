@@ -554,57 +554,6 @@ nav {
     padding-left: 260px;
   }
 }
-
-// pagination
-
-.pagination {
-  border-top: 1px solid $divider-color;
-  font-weight: 300;
-  padding: 40px 0;
-  width: 100%;
-  display: inline-block;
-
-  @include mobile {
-    font-size: $small-font-size;
-    padding: 24px 0;
-  }
-
-  > .prev {
-    float: left;
-    width: 50%;
-    a {
-      color: $base-lighten-color;
-      border: 1px solid $divider-color;
-      padding: 10px 20px;
-      background: $background-color;
-
-      &:hover, &:focus {
-        color: $link-lighten-color;
-        border: 1px solid $link-lighten-color;
-        background-color: $link-bghv-color;
-      }
-    }
-  }
-
-  > .next {
-    float: right;
-    text-align: right;
-    width: 50%;
-    a {
-      color: $base-lighten-color;
-      border: 1px solid $divider-color;
-      padding: 10px 20px;
-      background: $background-color;
-
-      &:hover, &:focus {
-        color: $link-lighten-color;
-        border: 1px solid $link-lighten-color;
-        background-color: $link-bghv-color;
-      }
-    }
-  }
-}
-
 // Archive
 .archive {
   a {
