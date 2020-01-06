@@ -1,0 +1,19 @@
+I"Œ<p>July 2019 - Present</p>
+
+<p><img src="https://raw.githubusercontent.com/bencampa/ben_site/master/_site/images/Wizard_logo.png" alt="img" /></p>
+
+<ul>
+  <li>
+    <p>Worked with Angular (Web framework) to create a tiered permission and access level comment sections that followed the Redux pattern on a new healthcare-related enterprise website.</p>
+  </li>
+  <li>
+    <p>Used DevExtreme (HTML application framework) to design a custom pop-up comment section that included both user and date imprinting.</p>
+  </li>
+  <li>
+    <p>Created extensive Mock Web-API data that helped run and test the website during the development.</p>
+  </li>
+  <li>
+    <p>Designed and built a complex multi-tiered database that allows comment viewing by both users and employees. Also created a secure access level structure that only allows designated comments to be created and viewed by agency employees.</p>
+  </li>
+</ul>
+:ET
