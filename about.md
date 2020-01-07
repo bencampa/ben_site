@@ -4,4 +4,4 @@ title: About Me
 permalink: /about/
 ---
 
-I am a computer science major at the University of Michigan. GO BLUE!!! 
+I am a computer science major and a Astronomy minor at the University of Michigan. GO BLUE!!! I'm orginally 
