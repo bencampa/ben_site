@@ -13,7 +13,7 @@ navigation:
   - name: About
     url: /about
   - name: Contact me
-    url: /Contact
+    url: /contact
 
 # articles per page
 paginate: 5
@@ -26,7 +26,7 @@ footer-links:
   instagram: https://www.instagram.com/ben_campagna/
   linkedin: https://www.linkedin.com/in/ben-campagna-22736114a/
 
-footer-text: Copyright (c) 2019 (Not actually copyrighted just wanted to look official). You can contact me at bencam
+footer-text: Copyright (c) 2019 (Not actually copyrighted just wanted to look official).
 
 
 # Enter your website domain name (if you do not add your own domain name, but use the domain name assigned directly by GitHub pages, you can omit it
