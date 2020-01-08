@@ -1,0 +1,6 @@
+I"Å<p>December, 2020 - Present</p>
+
+<p><img src="https://raw.githubusercontent.com/bencampa/ben_site/master/images/nest.png" alt="img" /></p>
+
+<p>I was inspired by an article Nestpick published regarding <a href="https://www.nestpick.com/generation-z-city-index-2019/"> the best cities to live in for Generation Z</a>. They put together a database that ranked each city in multiple different categories like safety, affordability, etc. They had all of the raw data posted in the article but no good way to organize the information. With matchmaking on my mind from my prior experience at Wizard Match, I had an idea about creating a person to country matchmaker that allowed you to scale the importance of each category. I sent them my idea along with a little mockup using C++ to explain the basic logic of the idea. They loved the idea and are started writing up a statement of work for me to complete the project. I will update this site as the job progresses!</p>
+:ET
