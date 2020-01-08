@@ -13,7 +13,7 @@ navigation:
   - name: About
     url: /about
   - name: Contact me
-    url: /contact
+    url: /Contact
 
 # articles per page
 paginate: 5
