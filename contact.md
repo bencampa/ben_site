@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact Me
-permalink: /contact/
+permalink: /Contact/
 ---
 
 Email - bencampa@umich.edu
