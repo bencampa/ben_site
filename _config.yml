@@ -18,6 +18,7 @@ navigation:
 # articles per page
 paginate: 5
 
+
 excerpt_separator: <!-- more -->
 
 footer-links: 
@@ -30,7 +31,6 @@ footer-text: Copyright (c) 2019 (Not actually copyrighted just wanted to look of
 
 
 # Enter your website domain name (if you do not add your own domain name, but use the domain name assigned directly by GitHub pages, you can omit it
-url: 
 
 baseurl: /ben_site
 
