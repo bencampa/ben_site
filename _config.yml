@@ -32,7 +32,7 @@ footer-text: Copyright (c) 2019 (Not actually copyrighted just wanted to look of
 # Enter your website domain name (if you do not add your own domain name, but use the domain name assigned directly by GitHub pages, you can omit it
 url: bencampagna.com
 
-baseurl: /ben_site
+baseurl: /bencampagna.com
 
 
 #
@@ -63,4 +63,5 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - CNAME
 
