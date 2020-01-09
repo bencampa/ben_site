@@ -33,8 +33,7 @@ footer-text: Copyright (c) 2019 (Not actually copyrighted just wanted to look of
 # Enter your website domain name (if you do not add your own domain name, but use the domain name assigned directly by GitHub pages, you can omit it
 domain: bencampagna.com
 
-
-baseurl: 
+baseurl: /ben_site
 
 
 #
